@@ -20,18 +20,18 @@ java -cp out com.elevsim.Main
   Show available commands.
 
 - `status`  
-  Print full state of all elevators.
+  Print the full state of all elevators.
 
 - `tick [n]`  
-  Advance the simulation by *n* ticks (default 1).
+  Advance the simulation by 'n' ticks (default 1).
 
-- `hall &lt;floor&gt; &lt;up|down&gt;`  
-  Create a hall call at a floor with a direction.  
-  **Example:** `hall 5 up`
+- `hall <floor> <up/down>`  
+  Create a hall call on a floor with a direction.  
+  Example: `hall 5 up`
 
-- `car &lt;elevatorId&gt; &lt;destinationFloor&gt;`  
+- `car <elevatorId> <destinationFloor>`  
   Create an inside-the-car destination request.  
-  **Example:** `car 1 12`
+  Example: `car 1 12`
 
 - `quit` / `exit`  
   Exit the simulator.
